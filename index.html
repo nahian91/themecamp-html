@@ -11,17 +11,12 @@
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
 		<!-- CSS here -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="assets/css/flaticon.css">
-            <link rel="stylesheet" href="assets/css/slicknav.css">
-            <link rel="stylesheet" href="assets/css/animate.min.css">
-            <link rel="stylesheet" href="assets/css/magnific-popup.css">
-            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-            <link rel="stylesheet" href="assets/css/themify-icons.css">
-            <link rel="stylesheet" href="assets/css/slick.css">
-            <link rel="stylesheet" href="assets/css/nice-select.css">
-            <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
    </head>
 
    <body>
@@ -44,7 +39,7 @@
        <div class="header-area">
             <div class="main-header ">
                 <div class="header-top top-bg d-none d-lg-block">
-                   <div class="container-fluid">
+                   <div class="container">
                        <div class="col-xl-12">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
@@ -66,7 +61,7 @@
                    </div>
                 </div>
                <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
+                    <div class="container">
                         <div class="row align-items-center">
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-1 col-md-1">
@@ -78,14 +73,17 @@
                                 <!-- Main-menu -->
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
-                                        <ul id="navigation">                                                                                                                                     
+                                        <ul id="navigation">             
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="about.html">About</a></li>
                                             <li><a href="services.html">Services</a></li>
-                                            <li><a href="cases.html">Cases</a></li>
+                                            <li><a href="cases.html">Cases</a>
+                                                <ul class="submenu">
+                                                    <li><a href="single-case.html">Case Details</a></li>
+                                                </ul>
+                                            </li>
                                             <li><a href="blog.html">Blog</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="single-blog.html">Blog Details</a></li>
                                                 </ul>
                                             </li>
@@ -112,32 +110,32 @@
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
+                <div class="single-slider slider-height d-flex align-items-center" style="background-image:url('assets/img/slider/slide-1.jpg')">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-8">
+                            <div class="col-xl-10 mx-auto">
                                 <div class="hero__caption">
-                                    <p data-animation="fadeInLeft" data-delay=".4s">Welcome to Buson</p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s" >We help you to grow your  business</h1>
+                                    <p>Welcome to Buson</p>
+                                    <h1>We help you to grow your  business</h1>
                                     <!-- Hero-btn -->
-                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Learn More</a>
+                                    <div class="hero__btn">
+                                        <a href="#" class="btn hero-btn">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
+                <div class="single-slider slider-height d-flex align-items-center" style="background-image:url('assets/img/slider/slide-2.jpg')">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-8">
+                            <div class="col-xl-10 mx-auto">
                                 <div class="hero__caption">
-                                    <p data-animation="fadeInLeft" data-delay=".4s">Welcome to Buson</p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s" >We help you to grow your  business</h1>
+                                    <p>Welcome to Buson</p>
+                                    <h1>We help you to grow your  business</h1>
                                     <!-- Hero-btn -->
-                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Learn More</a>
+                                    <div class="hero__btn">
+                                        <a href="#" class="btn hero-btn">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -147,57 +145,6 @@
             </div>
         </div>
         <!-- slider Area End-->
-
-        <!-- Team-profile Start -->
-        <div class="team-profile team-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-profile mb-30">
-                            <!-- Front -->
-                            <div class="single-profile-front">
-                                <div class="profile-img">
-                                    <img src="assets/img/team/team_1.jpg" alt="">
-                                </div>
-                                <div class="profile-caption">
-                                    <h4><a href="#">Business Planning</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-profile mb-30">
-                            <!-- Front -->
-                            <div class="single-profile-front">
-                                <div class="profile-img">
-                                    <img src="assets/img/team/team_2.jpg" alt="">
-                                </div>
-                                <div class="profile-caption">
-                                    <h4><a href="#">Financial Projections</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-profile mb-30">
-                            <!-- Front -->
-                            <div class="single-profile-front">
-                                <div class="profile-img">
-                                    <img src="assets/img/team/team_3.jpg" alt="">
-                                </div>
-                                <div class="profile-caption">
-                                    <h4><a href="#">Financial Projections</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team-profile End-->
 
         <!-- We Trusted Start-->
         <div class="we-trusted-area trusted-padding">
@@ -234,9 +181,9 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-services text-center mb-30">
+                        <div class="single-services text-center">
                             <div class="services-icon">
-                                <span class="flaticon-checklist"></span>
+                                <img src="assets/img/recent/rcent_1.png" alt="">
                             </div>
                             <div class="services-caption">
                                 <h4>Strategic Planning</h4>
@@ -245,9 +192,9 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-services text-center mb-30">
+                        <div class="single-services text-center">
                             <div class="services-icon">
-                                <span class="flaticon-audit"></span>
+                                <img src="assets/img/recent/rcent_2.png" alt="">
                             </div>
                             <div class="services-caption">
                                 <h4>Trades & stocks</h4>
@@ -256,9 +203,42 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-services text-center mb-30">
+                        <div class="single-services text-center">
                             <div class="services-icon">
-                                <span class="flaticon-checklist-1"></span>
+                                <img src="assets/img/recent/rcent_3.png" alt="">
+                            </div>
+                            <div class="services-caption">
+                                <h4>Audit & Assurance</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <img src="assets/img/recent/rcent_2.png" alt="">
+                            </div>
+                            <div class="services-caption">
+                                <h4>Audit & Assurance</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <img src="assets/img/recent/rcent_1.png" alt="">
+                            </div>
+                            <div class="services-caption">
+                                <h4>Audit & Assurance</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <img src="assets/img/recent/rcent_3.png" alt="">
                             </div>
                             <div class="services-caption">
                                 <h4>Audit & Assurance</h4>
@@ -270,10 +250,26 @@
             </div>
         </div>
         <!-- services Area End-->
+
+        <!-- Request Back Start -->
+        <div class="request-back-area section-padding30">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-8 mx-auto text-center">
+                        <div class="request-content">
+                            <h3>Request for  Call Back</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore,</p>
+                            <a href="#" class="btn trusted-btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Request Back End -->
         
         <!-- Completed Cases Start -->
         <div class="completed-cases section-padding3">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <!-- slider Heading -->
                     <div class="col-xl-4 col-lg-4 col-md-8">
@@ -314,6 +310,75 @@
             </div>
         </div>
         <!-- Completed Cases end -->
+
+        <!-- Team-profile Start -->
+        <div class="team-profile team-padding">
+            <div class="container">
+                <!-- section tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle text-center">
+                            <h2>Teams</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-4">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/team-1.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4>John Doe <span>Web Developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/team-2.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4>John Doe <span>Web Developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/team-3.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4>John Doe <span>Web Developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/team-2.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4>John Doe <span>Web Developer</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team-profile End-->
 
         <!-- Testimonial Start -->
         <div class="testimonial-area fix">
@@ -429,52 +494,7 @@
         </div>
         <!-- Recent Area End-->
 
-        <!-- Request Back Start -->
-        <div class="request-back-area section-padding30">
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-4 col-lg-5 col-md-5">
-                        <div class="request-content">
-                            <h3>Request for  Call Back</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore,</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7">
-                        <!-- Contact form Start -->
-                        <div class="form-wrapper">
-                            <form id="contact-form" action="#" method="POST">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-box  mb-30">
-                                            <input type="text" name="name" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-box mb-30">
-                                            <input type="text" name="email" placeholder="Phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 mb-30">
-                                        <div class="select-itms">
-                                            <select name="select" id="select1">
-                                                <option value="">Services</option>
-                                                <option value="">Services-1</option>
-                                                <option value="">Services-2</option>
-                                                <option value="">Services-3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <button type="submit" class="send-btn">Send</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>     <!-- Contact form End -->
-                </div>
-            </div>
-        </div>
-        <!-- Request Back End -->
+        
 
     </main>
    <footer>
@@ -568,10 +588,8 @@
    
 	<!-- JS here -->
 	
-		<!-- All JS Custom Plugins Link Here here -->
-        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<!-- Jquery, Popper, Bootstrap -->
-		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+		<script src="./assets/js/jquery-1.12.4.min.js"></script>
         <script src="./assets/js/popper.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
 	    <!-- Jquery Mobile Menu -->
@@ -580,27 +598,11 @@
 		<!-- Jquery Slick , Owl-Carousel Plugins -->
         <script src="./assets/js/owl.carousel.min.js"></script>
         <script src="./assets/js/slick.min.js"></script>
-        <!-- Date Picker -->
-        <script src="./assets/js/gijgo.min.js"></script>
-		<!-- One Page, Animated-HeadLin -->
-        <script src="./assets/js/wow.min.js"></script>
-		<script src="./assets/js/animated.headline.js"></script>
-        <script src="./assets/js/jquery.magnific-popup.js"></script>
 
-		<!-- Scrollup, nice-select, sticky -->
-        <script src="./assets/js/jquery.scrollUp.min.js"></script>
-        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<!-- sticky -->
 		<script src="./assets/js/jquery.sticky.js"></script>
         
-        <!-- contact js -->
-        <script src="./assets/js/contact.js"></script>
-        <script src="./assets/js/jquery.form.js"></script>
-        <script src="./assets/js/jquery.validate.min.js"></script>
-        <script src="./assets/js/mail-script.js"></script>
-        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-        
-		<!-- Jquery Plugins, main Jquery -->	
-        <script src="./assets/js/plugins.js"></script>
+		<!-- main Jquery -->	
         <script src="./assets/js/main.js"></script>
         
     </body>
